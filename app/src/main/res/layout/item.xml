@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bottom_shade"
+        android:paddingBottom="7dp"
+        android:layout_margin="10dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/itemCover"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/image"
+            android:layout_margin="5dp"
+
+             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="left|center"
+            >
+
+            <TextView
+                android:id="@+id/tvCat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:background="#84F3A89C"
+                android:layout_margin="7dp"
+                android:paddingHorizontal="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/itemTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="হোয়াটসঅ্যাপের নতুন চমক, চলবে ইন্টারনেট ছাড়াই.তবে এ নির্ভরতা কাটিয়ে উঠেছে প্লাটফর্মটি।"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:ellipsize="end"
+
+
+
+                />
+
+            <TextView
+                android:id="@+id/itemDes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" দ্রুত যোগাযোগের অন্যতম মাধ্যম হোয়াটসঅ্যাপ। সারাবিশ্বেই এটি জনপ্রিয়। অন্যান্য যোগাযোগ মাধ্যমের মতো এটি ব্যবহার করতেও ইন্টারনেট সংযোগ অত্যাবশ্যক। তবে এ নির্ভরতা কাটিয়ে উঠেছে প্লাটফর্মটি। ইন্টারনেট বন্ধ থাকলেও প্রক্সি সার্ভারের মাধ্যমে হোয়াটসঅ্যাপ ব্যবহারের সুবিধা চালু করা হয়েছে।"
+                android:maxLines="1"
+                android:layout_marginTop="2dp"
+                android:ellipsize="end"
+
+                />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
